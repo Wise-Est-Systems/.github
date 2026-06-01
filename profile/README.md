@@ -73,3 +73,11 @@ Dates are commitments, not estimates. Misses get logged here with a new date and
 | 2026-09-01 | `winstack-network` v0.2.0 — public WASM verifier hosted; macOS + Windows drop-target builds                         | open |
 | 2026-10-01 | First external conformance run by a non-Wise.Est party; result (`PASS` / `FAIL`) published verbatim                 | open |
 | 2026-12-01 | `wop` v0.2.0 — WiseDigest-3 cryptanalysis status update; second external review track invited                       | open |
+
+### Who built this
+
+Built by **Henry Wayne Wise III**, working solo. Day job: pipe-fitter on a US data center build. Started 2026.
+
+Licenses are chosen per repo: Apache-2.0 on the kernel (`wiseorder-protocol`), the runtime (`wiseorder`), and the primitives (`wop`) so contributions return to the commons; MIT on the production `.win` implementation (`winstack-network`) so any receiver can vendor the verifier without obligation.
+
+Contact: GitHub issues for non-sensitive bugs; `security@truth.systems` for vulnerability reports per each repo's `SECURITY.md`. No public chat, no Discord server, no announcements list. Everything ships via the dated roadmap above; misses get logged in the same place.
