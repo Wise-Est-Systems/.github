@@ -2,12 +2,14 @@
 
 Verifiable correctness and governance discipline for systems that change real things.
 
+**Live:** [truth.systems](https://truth.systems) — drop a file, get the truth · [proofs.systems](https://proofs.systems) — how the proofs work
+
 Our public stack is four repositories in three layers:
 
 - [**wop**](https://github.com/Wise-Est-Systems/wop) — WISEATA / WiseDigest-3 primitives. The deterministic hash function and structural-processing math the protocol depends on. Apache-2.0, tagged.
 - [**wiseorder-protocol**](https://github.com/Wise-Est-Systems/wiseorder-protocol) — governance kernel + hash-chained audit memory + conformance vectors + three-language verifiers. Apache-2.0, pre-v0.1.0.
 - [**wiseorder**](https://github.com/Wise-Est-Systems/wiseorder) — event-driven operational runtime. One workflow: commit → summarize → draft → human approval. Apache-2.0, pre-v0.1.0.
-- [**winstack-network**](https://github.com/Wise-Est-Systems/winstack-network) — `.win` tags: files that prove themselves. Portable, offline-verifiable file-integrity proofs. MIT.
+- [**winstack-network**](https://github.com/Wise-Est-Systems/winstack-network) — **WIN**, the Wise Independent Network: `.win` files that prove themselves. Portable, offline-verifiable file-integrity proofs. Try it at [truth.systems](https://truth.systems). MIT.
 
 Everything else under this org is either an archived predecessor or a pre-canonical experiment. Pinned repos above are the canonical set.
 
